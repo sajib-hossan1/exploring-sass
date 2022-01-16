@@ -1,3 +1,6 @@
+.carousel-item h1 {
+  color: orange; }
+
 .carousel {
   background-color: #fceae8; }
 
@@ -28,7 +31,7 @@
 .catagory img {
   width: 110px; }
 
-.shadow-c {
+.shadow-c:hover {
   box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.178); }
 
 .bag-hover:hover {

@@ -1,8 +1,10 @@
 .carousel-item {
   h1 {
-    // color: red;
+    color: orange;
   }
 }
+
+$common-box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.178);
 
 .carousel {
   background-color: #fceae8;
@@ -41,8 +43,8 @@
   width: 110px;
 }
 
-.shadow-c {
-  box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.178);
+.shadow-c:hover {
+  box-shadow: $common-box-shadow;
 }
 
 .bag-hover:hover {
