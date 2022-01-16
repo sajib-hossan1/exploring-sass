@@ -14,11 +14,13 @@ $common-box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.178);
   color: #ff136f;
 }
 
-.buy-btn a {
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-  background: linear-gradient(#ff5197, #ff1671);
+.buy-btn {
+  a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(#ff5197, #ff1671);
+  }
 }
 
 .submit-btn {
@@ -30,31 +32,41 @@ $common-box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.178);
   padding: 8px 15px;
 }
 
-.slider-img:hover {
-  transform: translate(-20px) scale(1.05);
-  transition: all 0.5s;
+.slider-img {
+  &:hover {
+    transform: translate(-20px) scale(1.05);
+    transition: all 0.5s;
+  }
 }
 
 .catagory {
   color: white;
 }
 
-.catagory img {
-  width: 110px;
+.catagory {
+  img {
+    width: 110px;
+  }
 }
 
-.shadow-c:hover {
-  box-shadow: $common-box-shadow;
+.shadow-c {
+  &:hover {
+    box-shadow: $common-box-shadow;
+  }
 }
 
-.bag-hover:hover {
-  transform: scale(1.07);
-  transition: all 0.5s;
+.bag-hover {
+  &:hover {
+    transform: scale(1.07);
+    transition: all 0.5s;
+  }
 }
 
-.shoe-hover:hover {
-  transform: scale(1.07);
-  transition: all 0.5s;
+.shoe-hover {
+  &:hover {
+    transform: scale(1.07);
+    transition: all 0.5s;
+  }
 }
 
 .subscribe-section {
